@@ -35,4 +35,9 @@ repos:
 - repo: https://github.com/jendrikseipp/vulture
   rev: 'v2.3'  # or any later Vulture version
   hooks:
-    - id: vulture 
+    - id: vulture
+- repo: https://github.com/HunterMcGushion/docstr_coverage
+  rev: v2.2.0 # most recent docstr-coverage release or commit sha
+  hooks:
+    - id: docstr-coverage
+      args: ["--verbose", "2", "--accept-empty"] # override the .docstr.yaml to see less output

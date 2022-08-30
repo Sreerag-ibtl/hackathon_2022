@@ -1,2 +1,5 @@
 pre-commit==2.20.0
 wily==1.23.0
+pytest==7.1.2
+numpy==1.23.2
+opencv-python==4.6.0.66
